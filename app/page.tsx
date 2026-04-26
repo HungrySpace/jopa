@@ -35,6 +35,17 @@ export default function Home() {
       font: 'font-serif',
       preview: 'Соня & Кирилл',
     },
+    {
+      id: 'v4',
+      name: 'Винтажная элегантность',
+      subtitle: 'Кремовая палитра',
+      description: 'Каллиграфия, серебряные акценты, зелёный конверт, рустикальный стиль',
+      palette: 'Крем и шоколад',
+      colors: ['#F5F0EB', '#3D2B1F', '#8B7355', '#4A6741', '#C0C0C0'],
+      bg: 'from-[#F5F0EB] to-[#E8DDD3]',
+      font: 'font-serif',
+      preview: 'Соня & Кирилл',
+    },
   ];
 
   return (
@@ -51,7 +62,7 @@ export default function Home() {
           Выберите вариант дизайна:
         </p>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {versions.map((version) => (
             <Link
               key={version.id}
@@ -59,29 +70,29 @@ export default function Home() {
               className="group block"
             >
               <div className={`bg-gradient-to-br ${version.bg} rounded-2xl border border-white/10 hover:border-white/30 transition-all duration-500 hover:scale-[1.02] overflow-hidden`}>
-                <div className="h-48 flex items-center justify-center border-b border-white/10">
-                  <span className={`text-2xl md:text-3xl ${version.id === 'v1' ? 'text-[#571310] font-mono' : version.id === 'v2' ? 'text-[#F4C599] font-sans' : 'text-[#AB482D] font-serif'}`}>
+                <div className="h-40 flex items-center justify-center border-b border-white/10">
+                  <span className={`text-xl md:text-2xl ${version.id === 'v1' ? 'text-[#571310] font-mono' : version.id === 'v2' ? 'text-[#F4C599] font-sans' : version.id === 'v4' ? 'text-[#3D2B1F] font-serif' : 'text-[#AB482D] font-serif'}`}>
                     {version.preview}
                   </span>
                 </div>
                 
-                <div className="p-6 text-left">
-                  <div className="flex gap-2 mb-4">
+                <div className="p-5 text-left">
+                  <div className="flex gap-1.5 mb-3">
                     {version.colors.map((color, i) => (
                       <div
                         key={i}
-                        className="w-6 h-6 rounded-full border border-white/20"
+                        className="w-5 h-5 rounded-full border border-white/20"
                         style={{ backgroundColor: color }}
                       />
                     ))}
                   </div>
-                  <h2 className="text-xl font-bold text-white mb-1 group-hover:text-[#FAA994] transition-colors">
+                  <h2 className="text-lg font-bold text-white mb-0.5 group-hover:text-[#FAA994] transition-colors">
                     {version.name}
                   </h2>
-                  <p className="text-sm text-[#FAA994] mb-3">{version.subtitle}</p>
-                  <p className="text-gray-400 text-sm leading-relaxed">{version.description}</p>
-                  <div className="mt-4 pt-4 border-t border-white/10">
-                    <span className="text-xs text-gray-500">Палитра: {version.palette}</span>
+                  <p className="text-xs text-[#FAA994] mb-2">{version.subtitle}</p>
+                  <p className="text-gray-400 text-xs leading-relaxed">{version.description}</p>
+                  <div className="mt-3 pt-3 border-t border-white/10">
+                    <span className="text-[10px] text-gray-500">Палитра: {version.palette}</span>
                   </div>
                 </div>
               </div>

@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   output: 'export',
   trailingSlash: true,
-  basePath: '/jopa',
+  basePath: process.env.NODE_ENV === 'production' ? '/jopa' : '',
 };
 
 export default nextConfig;
