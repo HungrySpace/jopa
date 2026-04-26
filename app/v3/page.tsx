@@ -225,18 +225,10 @@ function RSVPForm() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
-    try {
-      await fetch('/api/telegram', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name, alcoholPreference: alcohol, variant: 'v3' }),
-      });
+    setTimeout(() => {
       setSubmitted(true);
-    } catch {
-      alert('Ошибка отправки');
-    } finally {
       setLoading(false);
-    }
+    }, 800);
   };
 
   if (submitted) {
