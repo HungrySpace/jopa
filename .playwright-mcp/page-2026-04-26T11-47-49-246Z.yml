@@ -1,0 +1,126 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e5]:
+        - paragraph [ref=e6]: 03 . 09 . 2026
+        - heading "Соня и Кирилл" [level=1] [ref=e7]
+        - paragraph [ref=e8]: свадебная вечеринка и афтепати
+        - paragraph [ref=e9]: Вы только представьте, сколько всего должно было случиться, чтобы мы собрались все вместе. Как минимум – одно предложение пожениться.
+      - img [ref=e11]
+    - paragraph [ref=e16]: Вы только представьте, сколько всего должно было случиться, чтобы мы собрались все вместе. Как минимум – одно предложение пожениться.
+    - generic [ref=e18]:
+      - heading "Где мы вас ждём" [level=2] [ref=e19]
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - heading "Резиденция Чехов APi" [level=3] [ref=e22]
+          - paragraph [ref=e23]: Загородная резиденция в 58 км от МКАД. Для вас подготовлена спальня — можно оставить вещи, переодеться и остаться на ночь.
+          - generic [ref=e24]:
+            - paragraph [ref=e25]: "Время заселения:"
+            - paragraph [ref=e26]: скажу чуть позже - договариваюсь на ранний заезд
+        - generic [ref=e27]:
+          - heading "Как добраться" [level=3] [ref=e28]
+          - generic [ref=e29]:
+            - paragraph [ref=e30]: Друзья из Казани — если есть возможность, прилетайте в Домодедово, так будет ближе.
+            - paragraph [ref=e31]: Москвичи — для вас есть бесплатная парковка.
+      - generic [ref=e32]:
+        - link "Открыть на Яндекс Картах" [ref=e33] [cursor=pointer]:
+          - /url: https://yandex.ru/maps/?pt=37.394111,55.150639&z=16&l=map
+          - img [ref=e34]
+          - text: Открыть на Яндекс Картах
+        - paragraph [ref=e36]: 55°09'02.3N 37°23'38.8E
+    - generic [ref=e38]:
+      - heading "Программа" [level=2] [ref=e39]
+      - generic [ref=e40]:
+        - heading "3 сентября" [level=3] [ref=e41]
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - generic [ref=e46]: 13:00
+            - generic [ref=e47]:
+              - heading "Заселение" [level=4] [ref=e48]
+              - paragraph [ref=e49]: Приезжайте, располагайтесь, переодевайтесь — вас ждёт уютный номер в резиденции.
+          - generic [ref=e50]:
+            - generic [ref=e51]: 15:00
+            - generic [ref=e52]:
+              - heading "Welcome" [level=4] [ref=e53]
+              - paragraph [ref=e54]: Лёгкие закуски и бокал чего-нибудь приятного для разогрева.
+              - paragraph [ref=e55]: Яблоневый сад
+          - generic [ref=e56]:
+            - generic [ref=e57]: 15:30
+            - generic [ref=e58]:
+              - heading "Церемония" [level=4] [ref=e59]
+              - paragraph [ref=e60]: Самый важный момент — и начало нашей вечеринки.
+              - paragraph [ref=e61]: Яблоневый сад
+          - generic [ref=e62]:
+            - generic [ref=e63]: 16:15
+            - generic [ref=e64]:
+              - heading "Праздничный ужин" [level=4] [ref=e65]
+              - paragraph [ref=e66]: Много едим, поем, танцуем и плачем. Конечно же – от счастья.
+          - generic [ref=e67]:
+            - generic [ref=e68]: 23:00
+            - generic [ref=e69]:
+              - heading "Афтепати" [level=4] [ref=e70]
+              - paragraph [ref=e71]: Официальная часть завершена, неофициальная — только начинается. Площадка и дом в нашем распоряжении до утра. Не забудьте пижамы!
+      - generic [ref=e72]:
+        - heading "4 сентября · утро" [level=3] [ref=e73]
+        - generic [ref=e76]:
+          - generic [ref=e77]:
+            - generic [ref=e78]: 11:00
+            - generic [ref=e79]:
+              - heading "Общий завтрак" [level=4] [ref=e80]
+              - paragraph [ref=e81]: Собираемся за одним столом — вспоминаем вчерашнее.
+              - paragraph [ref=e82]: Главный корпус
+          - generic [ref=e83]:
+            - generic [ref=e84]: 12:00
+            - generic [ref=e85]:
+              - heading "Выселение" [level=4] [ref=e86]
+              - paragraph [ref=e87]: Освобождаем номера. А если остались силы — прогуляемся до фермы с животными и съедим фермерское мороженое.
+    - generic [ref=e89]:
+      - heading "Что надеть" [level=2] [ref=e90]
+      - paragraph [ref=e91]: Пожалуйста, приходите в красивой одежде, которая соответствует торжественному настроению. Но не забудьте кеды на сменку – танцевать будем до ночи!
+      - generic [ref=e92]:
+        - generic [ref=e93]:
+          - heading "Девушки" [level=3] [ref=e94]
+          - paragraph [ref=e95]: Вечерние платья, костюмы
+        - generic [ref=e96]:
+          - heading "Парни" [level=3] [ref=e97]
+          - paragraph [ref=e98]: Брюки, поло, легкие рубашки, костюмы
+      - generic [ref=e99]:
+        - paragraph [ref=e100]: главное пожелание – без черного цвета.
+        - paragraph [ref=e101]: Для вашего удобства собрали доску с референсами
+        - link "Открыть Pinterest доску" [ref=e102] [cursor=pointer]:
+          - /url: https://pin.it/1m84IMKWp
+          - img [ref=e103]
+          - text: Открыть Pinterest доску
+      - paragraph [ref=e105]: Но помните, главное – вы и ваше присутствие, а не то, что на вас одето.
+    - generic [ref=e107]:
+      - heading "Детали" [level=2] [ref=e108]
+      - generic [ref=e109]:
+        - paragraph [ref=e111]: Обратите внимание, что формат мероприятия не предполагают детской площадки и аниматоров. Отдохните этим вечером на полную катушку!
+        - paragraph [ref=e113]: Пожалуйста, не дарите цветы и алкоголь.
+        - paragraph [ref=e115]: Если вы задумываетесь о подарке, то будем благодарны за вклад в наш семейный бюджет.
+    - generic [ref=e117]:
+      - heading "Анкета" [level=2] [ref=e118]
+      - paragraph [ref=e119]:
+        - text: пожалуйста, ответьте на несколько вопросов
+        - text: "*Заполните форму для каждого гостя отдельно."
+      - generic [ref=e120]:
+        - generic [ref=e121]:
+          - generic [ref=e122]: 1. Имя *
+          - textbox "1. Имя *" [ref=e123]:
+            - /placeholder: Ваше имя
+        - generic [ref=e124]:
+          - generic [ref=e125]: 2. Пожелания по алкоголю *
+          - textbox "2. Пожелания по алкоголю *" [ref=e126]:
+            - /placeholder: "Например: вино, шампанское, безалкогольное..."
+        - button "Отправить ответ" [ref=e127]
+    - generic [ref=e130]:
+      - heading "Телеграм" [level=2] [ref=e131]
+      - paragraph [ref=e132]: Мы создали телеграм-чат нашего праздника, где можно будет узнать дополнительную информацию, поделиться фотографиями и видео в день и после свадьбы.
+      - link "Присоединиться к чату" [ref=e133] [cursor=pointer]:
+        - /url: https://t.me/+your_chat_link
+        - img [ref=e134]
+        - text: Присоединиться к чату
+    - paragraph [ref=e137]: С любовью, Соня и Кирилл 💕
+  - button "Open Next.js Dev Tools" [ref=e143] [cursor=pointer]:
+    - img [ref=e144]
+  - alert [ref=e147]

@@ -1,0 +1,25 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - heading "Свадебное приглашение" [level=1] [ref=e4]
+      - paragraph [ref=e5]: Соня и Кирилл • 03 . 09 . 2026
+      - paragraph [ref=e6]: "Выберите вариант дизайна:"
+      - generic [ref=e7]:
+        - link "Matrix Forest Лосось и цитрусы Тёмный фон с эффектом цифрового дождя, лесные силуэты и глитч-эффекты" [ref=e8] [cursor=pointer]:
+          - /url: /v1
+          - heading "Matrix Forest" [level=2] [ref=e15]
+          - paragraph [ref=e16]: Лосось и цитрусы
+          - paragraph [ref=e17]: Тёмный фон с эффектом цифрового дождя, лесные силуэты и глитч-эффекты
+        - link "Cyber Nature Фрукты Неоновые акценты на природном фоне, частицы и стеклянные карточки" [ref=e18] [cursor=pointer]:
+          - /url: /v2
+          - heading "Cyber Nature" [level=2] [ref=e24]
+          - paragraph [ref=e25]: Фрукты
+          - paragraph [ref=e26]: Неоновые акценты на природном фоне, частицы и стеклянные карточки
+        - link "Digital Garden Тёплые оттенки Тёплые тона с органическими формами, blob-анимации и SVG паттерны" [ref=e27] [cursor=pointer]:
+          - /url: /v3
+          - heading "Digital Garden" [level=2] [ref=e34]
+          - paragraph [ref=e35]: Тёплые оттенки
+          - paragraph [ref=e36]: Тёплые тона с органическими формами, blob-анимации и SVG паттерны
+  - button "Open Next.js Dev Tools" [ref=e42] [cursor=pointer]:
+    - img [ref=e43]
+  - alert [ref=e46]

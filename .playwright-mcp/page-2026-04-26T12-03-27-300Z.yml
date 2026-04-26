@@ -1,0 +1,38 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]: СВАДЕБНОЕ ПРИГЛАШЕНИЕ
+      - heading "Соня & Кирилл" [level=1] [ref=e5]
+      - paragraph [ref=e6]: 03 . 09 . 2026
+      - paragraph [ref=e7]: "Выберите вариант дизайна:"
+      - generic [ref=e8]:
+        - 'link "> Соня & Кирилл Terminal Forest Хакерский терминал Matrix rain с лесными символами, терминальный стиль, typewriter эффект Палитра: Лосось и цитрусы" [ref=e9] [cursor=pointer]':
+          - /url: /v1
+          - generic [ref=e10]:
+            - generic [ref=e12]: "> Соня & Кирилл"
+            - generic [ref=e13]:
+              - heading "Terminal Forest" [level=2] [ref=e20]
+              - paragraph [ref=e21]: Хакерский терминал
+              - paragraph [ref=e22]: Matrix rain с лесными символами, терминальный стиль, typewriter эффект
+              - generic [ref=e24]: "Палитра: Лосось и цитрусы"
+        - 'link "Соня & Кирилл Neon Botanica Неоновый сад Диагональные секции, glassmorphism, неоновое свечение, floating листья Палитра: Фрукты" [ref=e25] [cursor=pointer]':
+          - /url: /v2
+          - generic [ref=e26]:
+            - generic [ref=e28]: Соня & Кирилл
+            - generic [ref=e29]:
+              - heading "Neon Botanica" [level=2] [ref=e35]
+              - paragraph [ref=e36]: Неоновый сад
+              - paragraph [ref=e37]: Диагональные секции, glassmorphism, неоновое свечение, floating листья
+              - generic [ref=e39]: "Палитра: Фрукты"
+        - 'link "Соня & Кирилл Organic Code Editorial минимализм Журнальная вёрстка, hex паттерны, элегантный serif, много воздуха Палитра: Тёплые оттенки" [ref=e40] [cursor=pointer]':
+          - /url: /v3
+          - generic [ref=e41]:
+            - generic [ref=e43]: Соня & Кирилл
+            - generic [ref=e44]:
+              - heading "Organic Code" [level=2] [ref=e51]
+              - paragraph [ref=e52]: Editorial минимализм
+              - paragraph [ref=e53]: Журнальная вёрстка, hex паттерны, элегантный serif, много воздуха
+              - generic [ref=e55]: "Палитра: Тёплые оттенки"
+  - button "Open Next.js Dev Tools" [ref=e61] [cursor=pointer]:
+    - img [ref=e62]
+  - alert [ref=e65]
